@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+
+:root{
+    
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    color: seagreen;
+}
+
+.main-heading{
+    color: red;
+}
+
+.section-heading{
+    font-style: italic;
+}
+
+/*container*/
+.container{
+    padding: 0rem , 1rem ;
+}
+
+.container-centre{
+    max-width: 700px;
+    margin: auto;
+}
+
+.Links{
+    padding: 0.5rem , 1rem;
+}
+
+.primary-links{
+    border:  4px , solid;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: seagreen;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.secondary-links{
+    border:  4px , solid;
+    border-radius: 0.5rem;
+    color: seagreen;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/*list*/
+.non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem 1.5rem;
+}
+
+.main-image{
+    padding: 2rem;
+}
+
+.main-image .main-imagefinal{
+    max-width: 450px;
+    
+    display: block;
+    margin: auto;
+}
+
+.heading-image{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.fullwhite{
+    padding: 1rem;
+    background-color: #f8f8ff;
+    font-size: x-large;
+    
+    text-align:center;
+    font-weight: bolder ;
+    font-size: large;
+}
+
+.fullwhite .white
+{
+    text-align: center;
+}
+
+.white-sect .listalign
+{
+    list-style: none;
+    padding: 1rem;
+    text-align:center;
+    
+}
+
+.fulloffwhite{
+    padding: 1rem;
+    text-align: center;
+    background-color: #f8f8ff;
+    font-weight: bolder ;
+    font-size: large;
+}
+
+.footer{
+    background-color:seagreen;
+    padding: 2rem , 3rem;
+    text-align: center;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.footer  .non-bullet{
+    color:white;
+}
+
+.footer.links2{
+    text-align: right;
+}
+
+.navigation{
+    background-color:seagreen;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 0.5rem;
+    display: block;
+
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.navigation  .non-bullet{
+    color:white;
+}
+
+.navigation .nav-brand{
+    text-align: left;
+    font-weight: bold;
+    font-size: x-large;
+
+    padding-left: 5rem;    
+}
+.navigation .nav-pill{
+    text-align: right;
+    padding-top: 1rem;   
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.navigation .link{
+
+    color:white;
+}
+
+.langlogo{
+    padding: 0.5rem;
+    max-width: 150px;
+    text-align: center;
+    display: inline;
+    align-content: center;
+    margin: auto;
+}
+.sociallogo{
+    padding: 0rem;
+    
+    max-width: 30px;
+    
+}
+
+.link_proj{
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+}
